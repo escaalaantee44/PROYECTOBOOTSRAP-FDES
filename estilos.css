@@ -8,4 +8,16 @@ body{
     margin:auto;
     width:90%;
     max-width: 1000px;
+    background-color: black;
 }
+.navbar{
+    background-color: white;
+}
+
+.card-title{
+    color: black;
+}
+.btn-primary{
+    border-radius: 20px;
+}
+
