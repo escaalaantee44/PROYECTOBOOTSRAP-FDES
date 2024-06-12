@@ -4,6 +4,13 @@
     margin: 0;
 }
 
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+}
+
 body{
     margin:auto;
     width:90%;
@@ -17,7 +24,34 @@ body{
 .card-title{
     color: black;
 }
-.btn-primary{
+.btn-light{
     border-radius: 20px;
+}
+
+.card-body{
+    height: 200px;
+}
+
+div.catalogo{
+
+margin:10px;
+
+}
+a.catalogo{
+   padding:5px 60px ;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgb(95, 94, 94);
+    filter: opacity (0,6);
+    
+}
+
+ul.links{
+
+list-style-type: none;
+
+
 }
 
