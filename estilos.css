@@ -11,6 +11,38 @@
     margin:auto;
 }
 
+nav.navbar {
+    background-color: black;
+}
+
+h5{
+margin-bottom: 10px;
+}
+
+
+a{
+    color:red;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    color:red
+  
+
+}
+
+a.nav-link{
+    color:red;
+    text-decoration: none;
+}
+
+a.nav-link:hover{
+    color:red;
+    text-decoration: underline;
+}
+
 body{
     margin:auto;
     width:90%;
@@ -29,7 +61,23 @@ body{
 }
 
 .card-body{
-    height: 200px;
+    height: 250px;
+    min-width: 200px;
+    background-color: black;
+}
+.card-title{
+    color:aliceblue
+}
+.card-text{
+    color:aliceblue;
+}
+
+a.btn{
+    text-decoration: none;
+}
+div.carousel-caption{
+padding-top: 15px;
+padding-bottom: 5px;
 }
 
 div.catalogo{
@@ -43,15 +91,33 @@ a.catalogo{
 
 footer{
     margin-top: 20px;
-    background-color: rgb(95, 94, 94);
-    filter: opacity (0,6);
+    background-color: black;
+    filter: opacity(0,6);
+    margin-bottom: 20px;
     
 }
 
-ul.links{
+a.dropdown-item{
+    color: red;
+}
+a.dropdown-item:hover{
+    color: red;
+}
 
-list-style-type: none;
-
+div.redes2{
+   padding-bottom: 20px;
 
 }
+
+td{
+    height: 104px;
+}
+
+.ficha {
+
+    height: 60px;
+    width: 120px;
+}
+
+
 
